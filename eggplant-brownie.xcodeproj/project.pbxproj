@@ -54,14 +54,38 @@
 		C1DC8D5D25FAAD0000EF67B9 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
-				C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */,
-				C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */,
-				C1DC8D6225FAAD0000EF67B9 /* Main.storyboard */,
+				C1DC8D7325FB0F0A00EF67B9 /* Model */,
+				C1DC8D7225FB0F0700EF67B9 /* View */,
+				C1DC8D7025FB0EDA00EF67B9 /* Controller */,
 				C1DC8D6525FAAD0200EF67B9 /* Assets.xcassets */,
 				C1DC8D6725FAAD0200EF67B9 /* LaunchScreen.storyboard */,
 				C1DC8D6A25FAAD0200EF67B9 /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		C1DC8D7025FB0EDA00EF67B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */,
+				C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1DC8D7225FB0F0700EF67B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1DC8D6225FAAD0000EF67B9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1DC8D7325FB0F0A00EF67B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
