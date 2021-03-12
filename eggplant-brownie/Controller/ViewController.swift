@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var FelicidadeTextField: UITextField!
     
     @IBAction func adicionar(_ sender: Any) {
-        var Nome = NomeTextField.text
+        let Nome = NomeTextField.text
         
-        var Felicidade = FelicidadeTextField.text
+        let Felicidade = FelicidadeTextField.text
         
         print("Comi \(Nome) e fiquei com felicidade: \(Felicidade) ")
     }
