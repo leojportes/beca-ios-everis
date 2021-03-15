@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="1039" y="108"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Refeicoes Table View Controller-->
         <scene sceneID="B6A-6R-qcR">
             <objects>
-                <tableViewController id="HhY-IR-UK9" sceneMemberID="viewController">
+                <tableViewController id="HhY-IR-UK9" customClass="RefeicoesTableViewController" customModule="eggplant_brownie" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Tdq-cd-VJX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
