@@ -12,6 +12,8 @@
 		C1DC8D6425FAAD0000EF67B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DC8D6225FAAD0000EF67B9 /* Main.storyboard */; };
 		C1DC8D6625FAAD0200EF67B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DC8D6525FAAD0200EF67B9 /* Assets.xcassets */; };
 		C1DC8D6925FAAD0200EF67B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DC8D6725FAAD0200EF67B9 /* LaunchScreen.storyboard */; };
+		C1FA7E5C25FED32A008F562D /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA7E5B25FED32A008F562D /* Refeicao.swift */; };
+		C1FA7E5E25FED39C008F562D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA7E5D25FED39C008F562D /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		C1DC8D6525FAAD0200EF67B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1DC8D6825FAAD0200EF67B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1DC8D6A25FAAD0200EF67B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FA7E5A25FC06D2008F562D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C1FA7E5B25FED32A008F562D /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		C1FA7E5D25FED39C008F562D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 				C1DC8D7225FB0F0700EF67B9 /* View */,
 				C1DC8D7025FB0EDA00EF67B9 /* Controller */,
 				C1DC8D6525FAAD0200EF67B9 /* Assets.xcassets */,
+				C1FA7E5A25FC06D2008F562D /* MyPlayground.playground */,
 				C1DC8D6725FAAD0200EF67B9 /* LaunchScreen.storyboard */,
 				C1DC8D6A25FAAD0200EF67B9 /* Info.plist */,
 			);
@@ -84,6 +90,8 @@
 		C1DC8D7325FB0F0A00EF67B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C1FA7E5B25FED32A008F562D /* Refeicao.swift */,
+				C1FA7E5D25FED39C008F562D /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FA7E5E25FED39C008F562D /* Item.swift in Sources */,
 				C1DC8D6125FAAD0000EF67B9 /* ViewController.swift in Sources */,
+				C1FA7E5C25FED32A008F562D /* Refeicao.swift in Sources */,
 				C1DC8D5F25FAAD0000EF67B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
