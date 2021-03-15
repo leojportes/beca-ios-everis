@@ -12,6 +12,15 @@ class RefeicoesTableViewController: UITableViewController {
                      Refeicao(nomeRefeicao: "Feijão", felicidade: 4),
                      Refeicao(nomeRefeicao: "Comida Japonesa", felicidade: 5)]
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return refeicoes.count
     }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let celula = UITableViewCell(style: .default, reuseIdentifier: nil)
+        let refeicao = refeicoes[indexPath.row]
+        celula.textLabel?.text = refeicao.nome
+        
+        return celula
+    }
+
 }
