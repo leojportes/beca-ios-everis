@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C136CDD325FFA80000970BCD /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C136CDD225FFA80000970BCD /* RefeicoesTableViewController.swift */; };
 		C1DC8D5F25FAAD0000EF67B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */; };
 		C1DC8D6125FAAD0000EF67B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */; };
 		C1DC8D6425FAAD0000EF67B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DC8D6225FAAD0000EF67B9 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C136CDD225FFA80000970BCD /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 		C1DC8D5B25FAAD0000EF67B9 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */,
 				C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */,
+				C136CDD225FFA80000970BCD /* RefeicoesTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				C1FA7E5E25FED39C008F562D /* Item.swift in Sources */,
 				C1DC8D6125FAAD0000EF67B9 /* ViewController.swift in Sources */,
+				C136CDD325FFA80000970BCD /* RefeicoesTableViewController.swift in Sources */,
 				C1FA7E5C25FED32A008F562D /* Refeicao.swift in Sources */,
 				C1DC8D5F25FAAD0000EF67B9 /* AppDelegate.swift in Sources */,
 			);
