@@ -93,7 +93,7 @@
                     <navigationItem key="navigationItem" id="hOM-lh-XZd">
                         <barButtonItem key="rightBarButtonItem" title="add" id="903-ID-spL">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" identifier="adicionarRefeicao" id="NxP-vX-8zR"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="adicionar" id="NxP-vX-8zR"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

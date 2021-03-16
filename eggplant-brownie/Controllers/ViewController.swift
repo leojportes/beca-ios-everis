@@ -1,19 +1,16 @@
-//
-//  ViewController.swift
-//  eggplant-brownie
-//
-//  Created by Andriu Felipe Coelho on 23/02/19.
-//  Copyright © 2019 Alura. All rights reserved.
-//
 
 import UIKit
 
+protocol ViewControllerDelegate {
+    func add(_ refeicao: Refeicao)
+}
+
 class ViewController: UIViewController {
+
+    var delegate: ViewControllerDelegate?
     
     @IBOutlet var nomeTextField: UITextField?
     @IBOutlet weak var felicidadeTextField: UITextField?
-
-    var delegate: RefeicoesTableViewController?
     
     @IBAction func adicionar(_ sender: Any) {
         
@@ -29,7 +26,7 @@ class ViewController: UIViewController {
         
         print("comi \(refeicao.nome) e fiquei com felicidade: \(refeicao.felicidade)")
 
-        delegate?.adicionar(refeicao)
+        delegate?.add(refeicao)
 
         navigationController?.popViewController(animated: true)
     }
