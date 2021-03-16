@@ -2,7 +2,7 @@
 
 import UIKit
 
-class RefeicoesTableViewController: UITableViewController, ViewControllerDelegate {
+class RefeicoesTableViewController: UITableViewController, AdicionarRefeicaoDelegate {
 
         var refeicoes = [Refeicao(nome: "Beringela", felicidade: 5),
                      Refeicao(nome: "Macarrão", felicidade: 3)]
@@ -18,8 +18,7 @@ class RefeicoesTableViewController: UITableViewController, ViewControllerDelegat
         
             return celula
         }
-        
-        
+    
         func add(_ refeicao: Refeicao) {
             refeicoes.append(refeicao)
             tableView.reloadData()
