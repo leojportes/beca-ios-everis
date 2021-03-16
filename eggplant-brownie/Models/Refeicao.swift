@@ -2,27 +2,28 @@
 //  Refeicao.swift
 //  eggplant-brownie
 //
-//  Created by Leonardo Oliveira Portes on 14/03/21.
-//  Copyright © 2021 Alura. All rights reserved.
+//  Created by Andriu Felipe Coelho on 16/03/19.
+//  Copyright © 2019 Alura. All rights reserved.
 //
 
 import UIKit
 
 class Refeicao: NSObject {
-   
+    
+    // MARK: - Atributos
+    
     let nome: String
     let felicidade: Int
     let itens: Array<Item> = []
     
-    //    MARK: Construtor
+    // MARK: - Init
     
-    init(nomeRefeicao: String, felicidade: Int) {
-        
-        self.nome = nomeRefeicao
+    init(nome: String, felicidade: Int) {
+        self.nome = nome
         self.felicidade = felicidade
     }
     
-    //    MARK: Metodos
+    // MARK: - Metodos
     
     func totalDeCalorias() -> Double {
         var total = 0.0
@@ -30,7 +31,7 @@ class Refeicao: NSObject {
         for item in itens {
             total += item.calorias
         }
+        
         return total
     }
 }
-

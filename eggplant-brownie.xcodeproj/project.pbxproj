@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C136CDD325FFA80000970BCD /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C136CDD225FFA80000970BCD /* RefeicoesTableViewController.swift */; };
-		C1DC8D5F25FAAD0000EF67B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */; };
-		C1DC8D6125FAAD0000EF67B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */; };
-		C1DC8D6425FAAD0000EF67B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DC8D6225FAAD0000EF67B9 /* Main.storyboard */; };
-		C1DC8D6625FAAD0200EF67B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DC8D6525FAAD0200EF67B9 /* Assets.xcassets */; };
-		C1DC8D6925FAAD0200EF67B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DC8D6725FAAD0200EF67B9 /* LaunchScreen.storyboard */; };
-		C1FA7E5C25FED32A008F562D /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA7E5B25FED32A008F562D /* Refeicao.swift */; };
-		C1FA7E5E25FED39C008F562D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA7E5D25FED39C008F562D /* Item.swift */; };
+		8D7D203B226AC459003D1AE2 /* AdicionaRefeicoesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D203A226AC459003D1AE2 /* AdicionaRefeicoesDelegate.swift */; };
+		8D85E8D82267C06D00A5E624 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D85E8D72267C06D00A5E624 /* RefeicoesTableViewController.swift */; };
+		B90829C72221AF9600EA37C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90829C62221AF9600EA37C8 /* AppDelegate.swift */; };
+		B90829C92221AF9600EA37C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90829C82221AF9600EA37C8 /* ViewController.swift */; };
+		B90829CC2221AF9600EA37C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90829CA2221AF9600EA37C8 /* Main.storyboard */; };
+		B90829CE2221AF9700EA37C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90829CD2221AF9700EA37C8 /* Assets.xcassets */; };
+		B90829D12221AF9700EA37C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90829CF2221AF9700EA37C8 /* LaunchScreen.storyboard */; };
+		B9EFBAE8223D76FA00B773B2 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBAE7223D76FA00B773B2 /* Refeicao.swift */; };
+		B9EFBAEA223D775300B773B2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBAE9223D775300B773B2 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C136CDD225FFA80000970BCD /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
-		C1DC8D5B25FAAD0000EF67B9 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C1DC8D6325FAAD0000EF67B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1DC8D6525FAAD0200EF67B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1DC8D6825FAAD0200EF67B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1DC8D6A25FAAD0200EF67B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1FA7E5A25FC06D2008F562D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		C1FA7E5B25FED32A008F562D /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
-		C1FA7E5D25FED39C008F562D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8D7D203A226AC459003D1AE2 /* AdicionaRefeicoesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionaRefeicoesDelegate.swift; sourceTree = "<group>"; };
+		8D85E8D72267C06D00A5E624 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		B90829C32221AF9600EA37C8 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90829C62221AF9600EA37C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B90829C82221AF9600EA37C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B90829CB2221AF9600EA37C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B90829CD2221AF9700EA37C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90829D02221AF9700EA37C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B90829D22221AF9700EA37C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EFBAE7223D76FA00B773B2 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		B9EFBAE9223D775300B773B2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B9F1CCDB223408A80037DEFB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1DC8D5825FAAD0000EF67B9 /* Frameworks */ = {
+		B90829C02221AF9600EA37C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,73 +44,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1DC8D5225FAAD0000EF67B9 = {
+		B90829BA2221AF9600EA37C8 = {
 			isa = PBXGroup;
 			children = (
-				C1DC8D5D25FAAD0000EF67B9 /* eggplant-brownie */,
-				C1DC8D5C25FAAD0000EF67B9 /* Products */,
+				B90829C52221AF9600EA37C8 /* eggplant-brownie */,
+				B90829C42221AF9600EA37C8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C1DC8D5C25FAAD0000EF67B9 /* Products */ = {
+		B90829C42221AF9600EA37C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1DC8D5B25FAAD0000EF67B9 /* eggplant-brownie.app */,
+				B90829C32221AF9600EA37C8 /* eggplant-brownie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1DC8D5D25FAAD0000EF67B9 /* eggplant-brownie */ = {
+		B90829C52221AF9600EA37C8 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
-				C1DC8D7325FB0F0A00EF67B9 /* Model */,
-				C1DC8D7225FB0F0700EF67B9 /* View */,
-				C1DC8D7025FB0EDA00EF67B9 /* Controller */,
-				C1DC8D6525FAAD0200EF67B9 /* Assets.xcassets */,
-				C1FA7E5A25FC06D2008F562D /* MyPlayground.playground */,
-				C1DC8D6725FAAD0200EF67B9 /* LaunchScreen.storyboard */,
-				C1DC8D6A25FAAD0200EF67B9 /* Info.plist */,
+				B90829C62221AF9600EA37C8 /* AppDelegate.swift */,
+				B9EFBAEB223D77E900B773B2 /* Models */,
+				B9EFBAED223D783400B773B2 /* Views */,
+				B9EFBAEC223D781500B773B2 /* Controllers */,
+				B90829CD2221AF9700EA37C8 /* Assets.xcassets */,
+				B9F1CCDB223408A80037DEFB /* MyPlayground.playground */,
+				B90829CF2221AF9700EA37C8 /* LaunchScreen.storyboard */,
+				B90829D22221AF9700EA37C8 /* Info.plist */,
 			);
 			path = "eggplant-brownie";
 			sourceTree = "<group>";
 		};
-		C1DC8D7025FB0EDA00EF67B9 /* Controller */ = {
+		B9EFBAEB223D77E900B773B2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C1DC8D6025FAAD0000EF67B9 /* ViewController.swift */,
-				C1DC8D5E25FAAD0000EF67B9 /* AppDelegate.swift */,
-				C136CDD225FFA80000970BCD /* RefeicoesTableViewController.swift */,
+				B9EFBAE7223D76FA00B773B2 /* Refeicao.swift */,
+				B9EFBAE9223D775300B773B2 /* Item.swift */,
+				8D7D203A226AC459003D1AE2 /* AdicionaRefeicoesDelegate.swift */,
 			);
-			path = Controller;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		C1DC8D7225FB0F0700EF67B9 /* View */ = {
+		B9EFBAEC223D781500B773B2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C1DC8D6225FAAD0000EF67B9 /* Main.storyboard */,
+				B90829C82221AF9600EA37C8 /* ViewController.swift */,
+				8D85E8D72267C06D00A5E624 /* RefeicoesTableViewController.swift */,
 			);
-			path = View;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		C1DC8D7325FB0F0A00EF67B9 /* Model */ = {
+		B9EFBAED223D783400B773B2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C1FA7E5B25FED32A008F562D /* Refeicao.swift */,
-				C1FA7E5D25FED39C008F562D /* Item.swift */,
+				B90829CA2221AF9600EA37C8 /* Main.storyboard */,
 			);
-			path = Model;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1DC8D5A25FAAD0000EF67B9 /* eggplant-brownie */ = {
+		B90829C22221AF9600EA37C8 /* eggplant-brownie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1DC8D6D25FAAD0200EF67B9 /* Build configuration list for PBXNativeTarget "eggplant-brownie" */;
+			buildConfigurationList = B90829D52221AF9700EA37C8 /* Build configuration list for PBXNativeTarget "eggplant-brownie" */;
 			buildPhases = (
-				C1DC8D5725FAAD0000EF67B9 /* Sources */,
-				C1DC8D5825FAAD0000EF67B9 /* Frameworks */,
-				C1DC8D5925FAAD0000EF67B9 /* Resources */,
+				B90829BF2221AF9600EA37C8 /* Sources */,
+				B90829C02221AF9600EA37C8 /* Frameworks */,
+				B90829C12221AF9600EA37C8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,25 +119,25 @@
 			);
 			name = "eggplant-brownie";
 			productName = "eggplant-brownie";
-			productReference = C1DC8D5B25FAAD0000EF67B9 /* eggplant-brownie.app */;
+			productReference = B90829C32221AF9600EA37C8 /* eggplant-brownie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1DC8D5325FAAD0000EF67B9 /* Project object */ = {
+		B90829BB2221AF9600EA37C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Alura;
 				TargetAttributes = {
-					C1DC8D5A25FAAD0000EF67B9 = {
+					B90829C22221AF9600EA37C8 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = C1DC8D5625FAAD0000EF67B9 /* Build configuration list for PBXProject "eggplant-brownie" */;
+			buildConfigurationList = B90829BE2221AF9600EA37C8 /* Build configuration list for PBXProject "eggplant-brownie" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,57 +145,58 @@
 				en,
 				Base,
 			);
-			mainGroup = C1DC8D5225FAAD0000EF67B9;
-			productRefGroup = C1DC8D5C25FAAD0000EF67B9 /* Products */;
+			mainGroup = B90829BA2221AF9600EA37C8;
+			productRefGroup = B90829C42221AF9600EA37C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1DC8D5A25FAAD0000EF67B9 /* eggplant-brownie */,
+				B90829C22221AF9600EA37C8 /* eggplant-brownie */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1DC8D5925FAAD0000EF67B9 /* Resources */ = {
+		B90829C12221AF9600EA37C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DC8D6925FAAD0200EF67B9 /* LaunchScreen.storyboard in Resources */,
-				C1DC8D6625FAAD0200EF67B9 /* Assets.xcassets in Resources */,
-				C1DC8D6425FAAD0000EF67B9 /* Main.storyboard in Resources */,
+				B90829D12221AF9700EA37C8 /* LaunchScreen.storyboard in Resources */,
+				B90829CE2221AF9700EA37C8 /* Assets.xcassets in Resources */,
+				B90829CC2221AF9600EA37C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1DC8D5725FAAD0000EF67B9 /* Sources */ = {
+		B90829BF2221AF9600EA37C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1FA7E5E25FED39C008F562D /* Item.swift in Sources */,
-				C1DC8D6125FAAD0000EF67B9 /* ViewController.swift in Sources */,
-				C136CDD325FFA80000970BCD /* RefeicoesTableViewController.swift in Sources */,
-				C1FA7E5C25FED32A008F562D /* Refeicao.swift in Sources */,
-				C1DC8D5F25FAAD0000EF67B9 /* AppDelegate.swift in Sources */,
+				B9EFBAEA223D775300B773B2 /* Item.swift in Sources */,
+				B90829C92221AF9600EA37C8 /* ViewController.swift in Sources */,
+				8D85E8D82267C06D00A5E624 /* RefeicoesTableViewController.swift in Sources */,
+				B9EFBAE8223D76FA00B773B2 /* Refeicao.swift in Sources */,
+				B90829C72221AF9600EA37C8 /* AppDelegate.swift in Sources */,
+				8D7D203B226AC459003D1AE2 /* AdicionaRefeicoesDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C1DC8D6225FAAD0000EF67B9 /* Main.storyboard */ = {
+		B90829CA2221AF9600EA37C8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1DC8D6325FAAD0000EF67B9 /* Base */,
+				B90829CB2221AF9600EA37C8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C1DC8D6725FAAD0200EF67B9 /* LaunchScreen.storyboard */ = {
+		B90829CF2221AF9700EA37C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1DC8D6825FAAD0200EF67B9 /* Base */,
+				B90829D02221AF9700EA37C8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -200,7 +204,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C1DC8D6B25FAAD0200EF67B9 /* Debug */ = {
+		B90829D32221AF9700EA37C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		C1DC8D6C25FAAD0200EF67B9 /* Release */ = {
+		B90829D42221AF9700EA37C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +320,7 @@
 			};
 			name = Release;
 		};
-		C1DC8D6E25FAAD0200EF67B9 /* Debug */ = {
+		B90829D62221AF9700EA37C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -333,7 +337,7 @@
 			};
 			name = Debug;
 		};
-		C1DC8D6F25FAAD0200EF67B9 /* Release */ = {
+		B90829D72221AF9700EA37C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,25 +357,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1DC8D5625FAAD0000EF67B9 /* Build configuration list for PBXProject "eggplant-brownie" */ = {
+		B90829BE2221AF9600EA37C8 /* Build configuration list for PBXProject "eggplant-brownie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1DC8D6B25FAAD0200EF67B9 /* Debug */,
-				C1DC8D6C25FAAD0200EF67B9 /* Release */,
+				B90829D32221AF9700EA37C8 /* Debug */,
+				B90829D42221AF9700EA37C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1DC8D6D25FAAD0200EF67B9 /* Build configuration list for PBXNativeTarget "eggplant-brownie" */ = {
+		B90829D52221AF9700EA37C8 /* Build configuration list for PBXNativeTarget "eggplant-brownie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1DC8D6E25FAAD0200EF67B9 /* Debug */,
-				C1DC8D6F25FAAD0200EF67B9 /* Release */,
+				B90829D62221AF9700EA37C8 /* Debug */,
+				B90829D72221AF9700EA37C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1DC8D5325FAAD0000EF67B9 /* Project object */;
+	rootObject = B90829BB2221AF9600EA37C8 /* Project object */;
 }
