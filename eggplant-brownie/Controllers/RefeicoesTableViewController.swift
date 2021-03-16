@@ -4,8 +4,9 @@ import UIKit
 
 class RefeicoesTableViewController: UITableViewController, AdicionarRefeicaoDelegate {
 
-        var refeicoes = [Refeicao(nome: "Beringela", felicidade: 5),
+    var refeicoes = [Refeicao(nome: "Beringela", felicidade: 5),
                      Refeicao(nome: "Macarrão", felicidade: 3)]
+    
         override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return refeicoes.count
         
