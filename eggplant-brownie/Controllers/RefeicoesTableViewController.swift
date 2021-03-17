@@ -5,6 +5,7 @@
 //  Copyright © 2021 Alura. All rights reserved.
 //
 
+
 import UIKit
 
 class RefeicoesTableViewController: UITableViewController, AdicionarRefeicaoDelegate {
@@ -42,7 +43,15 @@ class RefeicoesTableViewController: UITableViewController, AdicionarRefeicaoDele
             
             let refeicao = refeicoes[indexPath.row]
             
-            print("refeicao: \(refeicao.nome)")
+            
+            
+            let alerta = UIAlertController(title: refeicao.nome, message: refeicao.detalhes(), preferredStyle: .alert)
+            let botaoCancelar = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            
+            alerta.addAction(botaoCancelar)
+            
+            present(alerta, animated: true, completion: nil)
+            
             }
         }
 
