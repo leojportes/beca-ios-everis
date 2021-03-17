@@ -1,9 +1,8 @@
-//
-//  AdicionaRefeicoesDelegate.swift
+
 //  eggplant-brownie
 //
-//  Created by Ândriu Coelho on 20/04/19.
-//  Copyright © 2019 Alura. All rights reserved.
+//  Created by Leonardo Oliveira Portes on 16/03/21.
+//  Copyright © 2021 Alura. All rights reserved.
 //
 
 import Foundation

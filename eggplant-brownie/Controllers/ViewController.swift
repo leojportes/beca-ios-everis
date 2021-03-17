@@ -1,12 +1,23 @@
 
+//  eggplant-brownie
+//
+//  Created by Leonardo Oliveira Portes on 16/03/21.
+//  Copyright © 2021 Alura. All rights reserved.
+//
+
+
+
 import UIKit
 
 protocol AdicionarRefeicaoDelegate {
     func add(_ refeicao: Refeicao)
 }
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, AdicionaItensDelegate {
   
+    // IBOutlet
+    @IBOutlet weak var itensTableView: UITableView!
+    
     // MARK: UITableviewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -48,7 +59,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     // MARK: - Atributos
     
     var delegate: AdicionarRefeicaoDelegate?
-    
     var itens: [Item] = [Item(nome: "Molho de Tomate", calorias: 40.0),
                          Item(nome: "Queijo Ralado", calorias: 40.0),
                          Item(nome: "Molho Apimentado", calorias: 40.0),
@@ -62,6 +72,25 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet var nomeTextField: UITextField?
     @IBOutlet weak var felicidadeTextField: UITextField?
     
+    
+    // MARK: - View life Cycle
+    
+    override func viewDidLoad() {
+        let botaoAdicionaItem = UIBarButtonItem(title: "adicionar", style: .plain, target: self, action: #selector(adicionarItens))
+        navigationItem.rightBarButtonItem = botaoAdicionaItem
+    }
+    
+    @objc func adicionarItens() {
+        let adicionarItensViewController = AdicionarItensViewController(delegate: self)
+        navigationController?.pushViewController(adicionarItensViewController, animated: true)
+        
+    }
+    
+    func add(_ item: Item) {
+        itens.append(item)
+        itensTableView.reloadData()
+        
+    }
     // MARK: - IBActions
     
     @IBAction func adicionar(_ sender: Any) {

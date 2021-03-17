@@ -16,6 +16,8 @@
 		B90829D12221AF9700EA37C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90829CF2221AF9700EA37C8 /* LaunchScreen.storyboard */; };
 		B9EFBAE8223D76FA00B773B2 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBAE7223D76FA00B773B2 /* Refeicao.swift */; };
 		B9EFBAEA223D775300B773B2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EFBAE9223D775300B773B2 /* Item.swift */; };
+		C190263B2601839000386BC9 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19026392601839000386BC9 /* AdicionarItensViewController.swift */; };
+		C190263C2601839000386BC9 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C190263A2601839000386BC9 /* AdicionarItensViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		B9EFBAE7223D76FA00B773B2 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		B9EFBAE9223D775300B773B2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B9F1CCDB223408A80037DEFB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C19026392601839000386BC9 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		C190263A2601839000386BC9 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			children = (
 				B90829C82221AF9600EA37C8 /* ViewController.swift */,
 				8D85E8D72267C06D00A5E624 /* RefeicoesTableViewController.swift */,
+				C19026392601839000386BC9 /* AdicionarItensViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				B90829CA2221AF9600EA37C8 /* Main.storyboard */,
+				C190263A2601839000386BC9 /* AdicionarItensViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 			files = (
 				B90829D12221AF9700EA37C8 /* LaunchScreen.storyboard in Resources */,
 				B90829CE2221AF9700EA37C8 /* Assets.xcassets in Resources */,
+				C190263C2601839000386BC9 /* AdicionarItensViewController.xib in Resources */,
 				B90829CC2221AF9600EA37C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +182,7 @@
 			files = (
 				B9EFBAEA223D775300B773B2 /* Item.swift in Sources */,
 				B90829C92221AF9600EA37C8 /* ViewController.swift in Sources */,
+				C190263B2601839000386BC9 /* AdicionarItensViewController.swift in Sources */,
 				8D85E8D82267C06D00A5E624 /* RefeicoesTableViewController.swift in Sources */,
 				B9EFBAE8223D76FA00B773B2 /* Refeicao.swift in Sources */,
 				B90829C72221AF9600EA37C8 /* AppDelegate.swift in Sources */,
