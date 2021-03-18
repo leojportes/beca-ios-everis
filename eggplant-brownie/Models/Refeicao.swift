@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Refeicao: NSObject {
+class Refeicao: NSObject, NSCoding {
     
     // MARK: - Atributos
     
@@ -18,9 +18,23 @@ class Refeicao: NSObject {
     // MARK: - Init
     
     init(nome: String, felicidade: Int, itens: [Item] = []) {
-        self.itens = itens
         self.nome = nome
         self.felicidade = felicidade
+        self.itens = itens
+    }
+    
+    // MARK: - NSCoding
+    
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(nome, forKey: "nome")
+        aCoder.encode(felicidade, forKey: "felicidade")
+        aCoder.encode(itens, forKey: "itens")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        nome = aDecoder.decodeObject(forKey: "nome") as! String
+        felicidade = aDecoder.decodeInteger(forKey: "felicidade")
+        itens = aDecoder.decodeObject(forKey: "itens") as! Array<Item>
     }
     
     // MARK: - Metodos
@@ -35,9 +49,7 @@ class Refeicao: NSObject {
         return total
     }
     
-    
     func detalhes() -> String {
-        
         var mensagem = "Felicidade: \(felicidade)"
         
         for item in itens {
@@ -45,5 +57,5 @@ class Refeicao: NSObject {
         }
         
         return mensagem
-        }
+    }
 }
